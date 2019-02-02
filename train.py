@@ -1,4 +1,5 @@
 from sklearn.utils import shuffle
+import keras
 from keras.models import Model
 from keras.callbacks import ModelCheckpoint
 import argparse as parser
@@ -6,7 +7,6 @@ from utils import *
 from load_data import *
 from model import *
 from config import *
-
 
 def train_generator(samplesX, samplesY, label_values, batch_size=1, is_training=True):
     """
@@ -51,7 +51,7 @@ def train(epochs, learning_rate, checkpoint, batch_size):
     def categorical_crossentropy(y_true, y_pred):
         return K.categorical_crossentropy(y_true, y_pred, from_logits=True)
 
-    model.compile(optimizer=tf.train.RMSPropOptimizer(learning_rate=learning_rate),
+    model.compile(optimizer=keras.optimizers.RMSprop(lr=learning_rate),
                   loss=categorical_crossentropy,
                   metrics=['accuracy'],
                   )
