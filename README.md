@@ -11,7 +11,7 @@ Pretrained Model Download ([Link](https://drive.google.com/uc?id=11ghYNpY4osChct
 
 
 # Suport
-**Prediction supported file formats (Video : Mp4, Picture : .png)**
+**Prediction supports the following file formats : (Video : Mp4, Picture : .png)**
 
 
 # Model prediction arguments
