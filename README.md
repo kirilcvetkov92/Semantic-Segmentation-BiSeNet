@@ -13,6 +13,18 @@ Pretrained Model Download ([Link](https://drive.google.com/uc?id=11ghYNpY4osChct
 Download CamVid dataset from [Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite/tree/master/CamVid)  
 Thanks [GeorgeSeif](https://github.com/GeorgeSeif) for his great job!
 
+## File hierarchy
+The only thing you have to do to get started is set up the folders in the following structure:
+
+    ├── "data"                   
+    |   ├── train
+    |   ├── train_labels
+    |   ├── val
+    |   ├── val_labels
+    |   ├── test
+    |   ├── test_labels
+    |── "model.h5"   
+    
 ## Suport
 **Prediction supports the following file formats : (Video : Mp4, Picture : .png)**
 
@@ -54,3 +66,11 @@ optional arguments:
   -batches BATCH_SIZE, --batch_size BATCH_SIZE
                         Number of batches per train
 ```                        
+
+### Example training:
+```
+python train.py
+```
+
+
+
