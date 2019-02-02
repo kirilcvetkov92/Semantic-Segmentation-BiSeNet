@@ -6,9 +6,11 @@ Keras impementation of BiseNet Image Segmentation Model (Paper : [Link](https://
 |:-----------:|:----------:|:---------:|
 | [![Video](https://img.youtube.com/vi/cxAuoHRf1z4/0.jpg)](https://www.youtube.com/watch?v=cxAuoHRf1z4)   	| [![Introduction video](https://img.youtube.com/vi/mj32wCefQnE/0.jpg)](https://www.youtube.com/watch?v=mj32wCefQnE)| [![Introduction video](https://img.youtube.com/vi/piNMVkYRZwA/0.jpg)](https://www.youtube.com/watch?v=piNMVkYRZwA) | 
 
-
+# Pretrained model
 Pretrained Model Download ([Link](https://drive.google.com/uc?id=11ghYNpY4osChcteBV-fefqY8ufDjhcrq&export=download))
 
+
+# Suport
 **Prediction supported file formats (Video : Mp4, Picture : .png)**
 
 
@@ -25,13 +27,13 @@ optional arguments:
                         Model Directorium
 ```
 
-## Example Image Prediction : 
+## Example semantic Image segmentation : 
 
 ```
 python predict.py -media test_img.png
 ```
 
-## Example Video Prediction :
+## Example semantic Video segmentation :
 ```
 python predict.py -media test_video.mp4
 ```
