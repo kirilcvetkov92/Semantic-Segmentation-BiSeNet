@@ -6,6 +6,7 @@ def load_image(path):
     return image
 
 def get_data():
+
     PATH = os.getcwd()
     train_path = PATH+'\data\\train\\'
     trainy_path = PATH+'\data\\train_labels\\'
@@ -13,7 +14,6 @@ def get_data():
     val_path = PATH+'\data\\val\\'
     valy_path = PATH+'\data\\val_labels\\'
 
-    print(train_path)
 
     train_batch = os.listdir(train_path)
     trainy_batch = os.listdir(trainy_path)
@@ -23,7 +23,6 @@ def get_data():
 
     X_train = []
     y_train = []
-
     X_val = []
     y_val = []
 

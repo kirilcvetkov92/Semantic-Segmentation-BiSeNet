@@ -84,7 +84,7 @@ if __name__ == "__main__":
                       default=LEARNING_RATE, help='Learning rate')
 
     args.add_argument('-save', '--model_dir', type=str,
-                      default=CHECKPOINT_DIR, help='Save checkpoints directory')
+                      default=CHECKPOINT_SAVE, help='Save checkpoints directory')
 
     args.add_argument('-batches', '--batch_size', type=int, default=BATCH_SIZE,
                       help='Number of batches per train')
