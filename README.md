@@ -4,7 +4,7 @@ Keras impementation of BiseNet Image Segmentation Model (Paper : [Link](https://
 
 | Image	|  Semantic Segmentation    |Semantic_Video_Segmatnation(Youtube)|
 |:-----------:|:----------:|:---------:|
-| ![Introduction video](test_img.png)|![Semantic segmentation](output_image.png)|![Video](https://img.youtube.com/vi/cxAuoHRf1z4/0.jpg)| 
+| ![Introduction video](test_img.png)|![Semantic segmentation](output_image.png)|[![Video](https://img.youtube.com/vi/cxAuoHRf1z4/0.jpg)](https://www.youtube.com/watch?v=cxAuoHRf1z4)| 
 
 ## Pretrained model
 Pretrained Model Download ([Link](https://drive.google.com/uc?id=11ghYNpY4osChcteBV-fefqY8ufDjhcrq&export=download))
