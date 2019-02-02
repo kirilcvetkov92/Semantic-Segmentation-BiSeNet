@@ -14,7 +14,7 @@ Download CamVid dataset from [Semantic-Segmentation-Suite](https://github.com/Ge
 Thanks [GeorgeSeif](https://github.com/GeorgeSeif) for his great job!
 
 ## File hierarchy
-Once you download pretrained model and dataset, please follow this structure:
+Once you download pretrained model and dataset, please follow this project structure:
 
     ├── "data"                   
     |   ├── train
