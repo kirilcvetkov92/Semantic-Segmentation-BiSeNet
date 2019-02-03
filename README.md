@@ -25,7 +25,7 @@ Once you download pretrained model and dataset, please follow this project struc
     |   ├── test_labels
     |── "model.h5"   
     
-## Suport
+## Support
 **Prediction supports the following file formats : (Video : Mp4, Picture : .png)**
 
 ### Model prediction arguments
