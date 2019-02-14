@@ -28,6 +28,10 @@ Once you download pretrained model and dataset, please follow this project struc
 ## Support
 **Prediction supports the following file formats : (Video : Mp4, Picture : .png)**
 
+## Requirements for loading pretrained model
+3 <= Python < 3.6 (Please note that python serialization algorithm is changed from v3.6+, and you can't load the pretrained model)
+
+
 ### Model prediction arguments
 
 ```
