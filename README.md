@@ -7,7 +7,7 @@ Keras impementation of BiseNet Image Segmentation Model (Paper : [Link](https://
 | ![Introduction video](test_img.png)|![Semantic segmentation](output_image.png)|[![Video](https://img.youtube.com/vi/cxAuoHRf1z4/0.jpg)](https://www.youtube.com/watch?v=cxAuoHRf1z4)| 
 
 ## Pretrained model
-Pretrained Model Download ([Link](https://drive.google.com/uc?id=11ghYNpY4osChcteBV-fefqY8ufDjhcrq&export=download))
+Pretrained Model Download ([Link](https://drive.google.com/file/d/1K6IDBBh-6vR49aV88TzvKq7OEXyem4ii/view?usp=sharing))
 
 ## Dataset  
 Download CamVid dataset from [Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite/tree/master/CamVid)  
