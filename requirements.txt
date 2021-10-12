@@ -1,5 +1,5 @@
 moviepy==0.2.3.2
-opencv_python==3.4.4.19	
+opencv_python==4.2.0.32	
 numpy==1.15.0
 Keras==2.2.4	
 scikit_learn==0.20.2
